@@ -19,4 +19,5 @@ function getOption(questionNumber) {
 const radioButtons = document.querySelectorAll('input[type="radio"]');
 radioButtons.forEach((radio) => {
     radio.addEventListener('change', storeOptions);
+window.location.href = 'https://impanda9.github.io/11typtst/';
 });
